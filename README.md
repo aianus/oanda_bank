@@ -14,7 +14,7 @@ Any pair of currencies that are both part of the money gem and part of a tradeab
 ``` ruby
 require 'oanda_bank'
 
-oanda_bank = Money::Bank::OANDA(ENV['FXTRADE_ACCOUNT_ID'], ENV['FXTRADE_ACCESS_TOKEN'])
+oanda_bank = Money::Bank::OANDA.new(ENV['FXTRADE_ACCOUNT_ID'], ENV['FXTRADE_ACCESS_TOKEN'])
 
 # Call this before calculating exchange rates
 # This will download the rates from OANDA

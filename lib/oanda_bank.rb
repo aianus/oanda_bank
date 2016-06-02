@@ -35,8 +35,8 @@ class Money
             @rates = new_rates
             refresh_rates_expiration!
           end
-        rescue
-          raise FetchError.new
+        rescue StandardError => e
+          raise FetchError.new(e.message)
         end
       end
 

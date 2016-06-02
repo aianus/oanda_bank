@@ -17,7 +17,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec', '~> 3.0'
   gem.add_development_dependency 'webmock', '~> 1.18'
   gem.add_development_dependency 'simplecov', '~> 0.7'
+  gem.add_development_dependency 'pry-byebug', '~> 3.3'
 
   gem.add_dependency 'oauth2', '~> 1.0'
-  gem.add_dependency 'money', '~> 6.0'
+  gem.add_dependency 'money', '~> 6.0', '<= 6.5.1'
 end
