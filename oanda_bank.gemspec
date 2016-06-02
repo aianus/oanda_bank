@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = 'oanda_bank'
-  gem.version       = '1.0.0'
+  gem.version       = '1.0.1'
   gem.authors       = ['Alex Ianus']
   gem.email         = ['hire@alexianus.com']
   gem.description   = ['Ruby Money::Bank interface for OANDA currency rate data']
